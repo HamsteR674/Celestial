@@ -90,9 +90,9 @@ int main(){
 		cout << "Tul, " << Tul.getcoord(0) << ", " << Tul.getcoord(1) << ", " << Tul.getcoord(2) << endl; //вывод в терминал
 		cout << "Arc, " << Arc.getcoord(0) << ", " << Arc.getcoord(1) << ", " << Arc.getcoord(2) << endl;
 		cout << "Ber, " << Ber.getcoord(0) << ", " << Ber.getcoord(1) << ", " << Ber.getcoord(2) << endl;
-		file << "Tul, " << Tul.getcoord(0) << ", " << Tul.getcoord(1) << ", " << Tul.getcoord(2) << endl; //запись в файл
-		file << "Arc, " << Arc.getcoord(0) << ", " << Arc.getcoord(1) << ", " << Arc.getcoord(2) << endl;
-		file << "Ber, " << Ber.getcoord(0) << ", " << Ber.getcoord(1) << ", " << Ber.getcoord(2) << endl;
+		file << "Tul, " << Tul.getcoord(0) << ", " << Tul.getcoord(1) << ", " << Tul.getcoord(2) << " speeds " << Tul.getspeed(0) << ", " << Tul.getspeed(1) << ", " << Tul.getspeed(2) << endl; //запись в файл
+		file << "Arc, " << Arc.getcoord(0) << ", " << Arc.getcoord(1) << ", " << Arc.getcoord(2) << " speeds " << Arc.getspeed(0) << ", " << Arc.getspeed(1) << ", " << Arc.getspeed(2) << endl;
+		file << "Ber, " << Ber.getcoord(0) << ", " << Ber.getcoord(1) << ", " << Ber.getcoord(2) << " speeds " << Ber.getspeed(0) << ", " << Ber.getspeed(1) << ", " << Ber.getspeed(2) << endl;
 
 		iteration++;
 	}
