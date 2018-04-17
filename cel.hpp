@@ -9,14 +9,15 @@ private:
 	int mass;
 	string name;
 public:
-	cel(string name);
+	cel();
 	double getspeed(int i);
 	double getcoord(int i);
 	int  getmass();
 	void setspeed(double speed_buf, int i);
 	void setcoord(double coord_buf, int i);
 	void setmass(int mass_buf);
-	void eval(double FTA, double FBT, int j, double t);
+	void eval(double F, int j, double t, double dt);
 };
+
 
 #endif
